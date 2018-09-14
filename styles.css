@@ -1,0 +1,87 @@
+#mainImage {
+	display: block; 
+	margin: auto;
+	border: 3px solid black;
+	border-radius: 10px;
+	width:400px; 
+	height:400px;
+	transition: width 1s, height .75s, transform .5s;
+	transition-timing-function: ease-in-out;
+}
+
+body {
+	background-image: url("images/background.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color: black;
+}
+#navbar {
+	list-style-type: none;
+	padding: 0;
+	padding-left: 10%;
+	overflow: hidden;
+	background-color: black;
+	width: 65%;
+	display: block;
+	margin: auto;
+	margin-bottom: 40px;
+
+	
+}
+
+li.listItems {
+	float: left;
+	width: 30%;
+}
+
+li a.listLink {
+	display:block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: darkgreen;
+}
+
+li a:hover.listLink {
+	background-color: forestgreen;
+}
+
+#codingNavbar {
+	padding: 0;
+	overflow: hidden;
+	width: 30%;
+	height: 200px;
+	list-style-type: none;
+	background-color: rgba(0,0,0,.6);
+	display: block;
+	margin: auto;
+	border: solid 2px black;
+	border-radius: 10px;
+}
+
+li.codingListItems {
+	display: block;
+	margin: auto;
+	float: top;
+	
+}
+
+li a.codingListLink {
+	background-color: grey;
+	color: white;
+	padding: 10px 10px;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 10px;
+	text-decoration: none;
+	display: block;
+	margin: auto;
+
+}
+
+li a:hover.codingListLink {
+	background-color: lightgrey;
+}
